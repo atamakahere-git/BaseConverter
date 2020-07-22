@@ -2,23 +2,18 @@ package com.atamaka;
 
 public class Decimal {
     private long decimal;
-
     public Decimal(long decimal) {
         this.decimal = decimal;
     }
-
     public Decimal() {
         this.decimal = 0;
     }
-
     public long getDecimal() {
         return decimal;
     }
-
     public void setDecimal(long decimal) {
         this.decimal = decimal;
     }
-
     public Binary toBinary(Decimal decimal) {
         Binary binary;
         long dec = decimal.getDecimal();
@@ -36,11 +31,9 @@ public class Decimal {
         binary = new Binary(bin);
         return binary;
     }
-
     public Binary toBinary() {
         return  this.toBinary(this);
     }
-
     public Octal toOctal (Decimal decimal) {
         Octal octal;
         long dec = decimal.getDecimal();
@@ -58,11 +51,9 @@ public class Decimal {
         octal = new Octal(oct);
         return octal;
     }
-
     public Octal toOctal () {
         return this.toOctal(this);
     }
-
     @Override
     public String toString() {
         return this.decimal + "(10)";
