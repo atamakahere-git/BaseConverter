@@ -65,6 +65,6 @@ public class Decimal {
 
     @Override
     public String toString() {
-        return String.valueOf(this.decimal);
+        return this.decimal + "(10)";
     }
 }

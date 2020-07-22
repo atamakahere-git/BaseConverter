@@ -1,7 +1,7 @@
 package com.atamaka;
 
 public class Octal {
-    long octal;
+    private long octal;
 
     public Octal(long octal) {
         this.octal = octal;
@@ -47,6 +47,6 @@ public class Octal {
 
     @Override
     public String toString() {
-        return String.valueOf(this.octal);
+        return this.octal + "(8)";
     }
 }

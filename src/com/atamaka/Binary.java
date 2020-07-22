@@ -46,6 +46,6 @@ public class Binary {
 
     @Override
     public String toString() {
-        return String.valueOf(this.binary);
+        return this.binary + "(2)";
     }
 }

@@ -10,13 +10,13 @@ public class Main {
         octal.setOctal(123);
         binary.setBinary(10110);
         System.out.println("Converting Decimal to octal and binary:\n" +
-                decimal.toString() + "(10)" + " = " + decimal.toOctal().toString() + "(8)" +
-                " = " + decimal.toBinary().toString() + "(2)");
+                decimal.toString() + " = " + decimal.toOctal().toString()+
+                " = " + decimal.toBinary().toString());
         System.out.println("Converting Octal to decimal and binary:\n" +
-                octal.toString() + "(8)" + " = " + octal.toDecimal().toString() + "(10)" +
-                " = " + octal.toBinary().toString() + "(2)");
+                octal.toString() + " = " + octal.toDecimal().toString() +
+                " = " + octal.toBinary().toString());
         System.out.println("Converting Binary to decimal and octal:\n" +
-                binary.toString() + "(2)" + " = " + binary.toDecimal().toString() + "(10)" +
-                " = " + binary.toOctal().toString() + "(8)");
+                binary.toString() + " = " + binary.toDecimal().toString() +
+                " = " + binary.toOctal().toString());
     }
 }
