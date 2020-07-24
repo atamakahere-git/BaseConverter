@@ -1,5 +1,26 @@
 package com.atamaka;
-
+/*
+    Author : M. Tanveer Raza
+    Date : July 22, 2020
+    Last Edit: July 24 2020
+    Class : Decimal
+    Desc: Decimal class is used to create an object to store and modify decimal number.
+    Data members:
+        1. long decimal : to store decimal value
+    Methods:
+        1. Decimal(long decimal) : constructor with argument to initialize decimal with given value.
+        2. Decimal() : constructor with no argument to initialize decimal with zero value.
+        3. Getters and Setters for decimal data member
+        4. Binary toBinary(Decimal decimal) : returns a Binary object equivalent to Decimal object passed as parameter.
+        5. Binary toBinary() : returns a Binary object equivalent to Decimal object from which it is being called.
+        6. Octal toOctal (Decimal decimal) : returns an Octal object equivalent to Decimal object passed as parameter.
+        7. Octal toOctal () : returns a Octal object equivalent to Decimal object from which it is being called.
+        8. String toString() : Overrides toString method, returns the decimal value with respective base. Ex. 69(10).
+    Usage:
+        1. Decimal decimal = new Decimal(decimal_value);
+        2. Binary binary = new Binary(); binary = Decimal.toBinary(69);
+        3. decimal.toString() : Outputs : 69(10)
+ */
 public class Decimal {
     private long decimal;
     public Decimal(long decimal) {
