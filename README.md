@@ -1,6 +1,6 @@
 # BaseConverter
 Java classes to convert base of numbers.
-<hr> <p>Eample : <br>
+<hr> <p> Example : <br>
 Converting Decimal to octal and binary:
 13(10) = 15(8) = 1101(2)<br>
 Converting Octal to decimal and binary:
